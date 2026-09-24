@@ -2,7 +2,7 @@ package code_bat;
 
 public class sleepIn {
 
-    public boolean sleepIn(boolean weekday, boolean vacation) {
+    public boolean sleep(boolean weekday, boolean vacation) {
         if (!weekday || vacation) {
             return true;
         } else {
